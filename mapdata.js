@@ -5,25 +5,25 @@ var simplemaps_worldmap_mapdata={
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
-    popups: "on_click",
+    popups: "detect",
     
     //State defaults
     state_description: "State description",
-    state_color: "#88A4BC",
-    state_hover_color: "#3B729F",
-    state_url: "http://simplemaps.com",
+    state_color: "#beedb1",
+    state_hover_color: "#97d190",
+    state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
     all_states_zoomable: "no",
     
     //Location defaults
     location_description: "Location description",
-    location_color: "#FF0067",
-    location_opacity: 0.8,
+    location_color: "#3b729f",
+    location_opacity: "0.4",
     location_hover_opacity: 1,
     location_url: "",
-    location_size: 25,
-    location_type: "square",
+    location_size: "15",
+    location_type: "circle",
     location_image_source: "frog.png",
     location_border_color: "#FFFFFF",
     location_border: 2,
@@ -71,680 +71,982 @@ var simplemaps_worldmap_mapdata={
   },
   state_specific: {
     AF: {
-      name: "Afghanistan"
+      name: "Afghanistan",
+      description: " "
     },
     AO: {
-      name: "Angola"
+      name: "Angola",
+      description: " "
     },
     AL: {
-      name: "Albania"
+      name: "Albania",
+      description: " "
     },
     AE: {
-      name: "United Arab Emirates"
+      name: "United Arab Emirates",
+      description: " "
     },
     AR: {
-      name: "Argentina"
+      name: "Argentina",
+      description: " "
     },
     AM: {
-      name: "Armenia"
+      name: "Armenia",
+      description: " "
     },
     AU: {
-      name: "Australia"
+      name: "Australia",
+      description: " "
     },
     AT: {
-      name: "Austria"
+      name: "Austria",
+      description: " "
     },
     AZ: {
-      name: "Azerbaijan"
+      name: "Azerbaijan",
+      description: " "
     },
     BI: {
-      name: "Burundi"
+      name: "Burundi",
+      description: " "
     },
     BE: {
-      name: "Belgium"
+      name: "Belgium",
+      description: " "
     },
     BJ: {
-      name: "Benin"
+      name: "Benin",
+      description: " "
     },
     BF: {
-      name: "Burkina Faso"
+      name: "Burkina Faso",
+      description: " "
     },
     BD: {
-      name: "Bangladesh"
+      name: "Bangladesh",
+      description: " "
     },
     BG: {
-      name: "Bulgaria"
+      name: "Bulgaria",
+      description: " "
     },
     BH: {
-      name: "Bahrain"
+      name: "Bahrain",
+      description: " "
     },
     BA: {
-      name: "Bosnia and Herzegovina"
+      name: "Bosnia and Herzegovina",
+      description: " "
     },
     BY: {
-      name: "Belarus"
+      name: "Belarus",
+      description: " "
     },
     BZ: {
-      name: "Belize"
+      name: "Belize",
+      description: " "
     },
     BO: {
-      name: "Bolivia"
+      name: "Bolivia",
+      description: " "
     },
     BR: {
-      name: "Brazil"
+      name: "Brazil",
+      description: " "
     },
     BN: {
-      name: "Brunei Darussalam"
+      name: "Brunei Darussalam",
+      description: " "
     },
     BT: {
-      name: "Bhutan"
+      name: "Bhutan",
+      description: " "
     },
     BW: {
-      name: "Botswana"
+      name: "Botswana",
+      description: " "
     },
     CF: {
-      name: "Central African Republic"
+      name: "Central African Republic",
+      description: " "
     },
     CA: {
-      name: "Canada"
+      name: "Canada",
+      description: " "
     },
     CH: {
-      name: "Switzerland"
+      name: "Switzerland",
+      description: " "
     },
     CL: {
-      name: "Chile"
+      name: "Chile",
+      description: " "
     },
     CN: {
-      name: "China"
+      name: "China",
+      description: " "
     },
     CI: {
-      name: "Côte d'Ivoire"
+      name: "Côte d'Ivoire",
+      description: " "
     },
     CM: {
-      name: "Cameroon"
+      name: "Cameroon",
+      description: " "
     },
     CD: {
-      name: "Democratic Republic of the Congo"
+      name: "Democratic Republic of the Congo",
+      description: " "
     },
     CG: {
-      name: "Republic of Congo"
+      name: "Republic of Congo",
+      description: " "
     },
     CO: {
-      name: "Colombia"
+      name: "Colombia",
+      description: " "
     },
     CR: {
-      name: "Costa Rica"
+      name: "Costa Rica",
+      description: " "
     },
     CU: {
-      name: "Cuba"
+      name: "Cuba",
+      description: " "
     },
     CZ: {
-      name: "Czech Republic"
+      name: "Czech Republic",
+      description: " "
     },
     DE: {
-      name: "Germany"
+      name: "Germany",
+      description: " "
     },
     DJ: {
-      name: "Djibouti"
+      name: "Djibouti",
+      description: " "
     },
     DK: {
-      name: "Denmark"
+      name: "Denmark",
+      description: " "
     },
     DO: {
-      name: "Dominican Republic"
+      name: "Dominican Republic",
+      description: " "
     },
     DZ: {
-      name: "Algeria"
+      name: "Algeria",
+      description: " "
     },
     EC: {
-      name: "Ecuador"
+      name: "Ecuador",
+      description: " "
     },
     EG: {
-      name: "Egypt"
+      name: "Egypt",
+      description: " "
     },
     ER: {
-      name: "Eritrea"
+      name: "Eritrea",
+      description: " "
     },
     EE: {
-      name: "Estonia"
+      name: "Estonia",
+      description: " "
     },
     ET: {
-      name: "Ethiopia"
+      name: "Ethiopia",
+      description: " "
     },
     FI: {
-      name: "Finland"
+      name: "Finland",
+      description: " "
     },
     FJ: {
-      name: "Fiji"
+      name: "Fiji",
+      description: " "
     },
     GA: {
-      name: "Gabon"
+      name: "Gabon",
+      description: " "
     },
     GB: {
-      name: "United Kingdom"
+      name: "United Kingdom",
+      description: " "
     },
     GE: {
-      name: "Georgia"
+      name: "Georgia",
+      description: " "
     },
     GH: {
-      name: "Ghana"
+      name: "Ghana",
+      description: " "
     },
     GN: {
-      name: "Guinea"
+      name: "Guinea",
+      description: " "
     },
     GM: {
-      name: "The Gambia"
+      name: "The Gambia",
+      description: " "
     },
     GW: {
-      name: "Guinea-Bissau"
+      name: "Guinea-Bissau",
+      description: " "
     },
     GQ: {
-      name: "Equatorial Guinea"
+      name: "Equatorial Guinea",
+      description: " "
     },
     GR: {
-      name: "Greece"
+      name: "Greece",
+      description: " "
     },
     GL: {
-      name: "Greenland"
+      name: "Greenland",
+      description: " "
     },
     GT: {
-      name: "Guatemala"
+      name: "Guatemala",
+      description: " "
     },
     GY: {
-      name: "Guyana"
+      name: "Guyana",
+      description: " "
     },
     HN: {
-      name: "Honduras"
+      name: "Honduras",
+      description: " "
     },
     HR: {
-      name: "Croatia"
+      name: "Croatia",
+      description: " "
     },
     HT: {
-      name: "Haiti"
+      name: "Haiti",
+      description: " "
     },
     HU: {
-      name: "Hungary"
+      name: "Hungary",
+      description: " "
     },
     ID: {
-      name: "Indonesia"
+      name: "Indonesia",
+      description: " "
     },
     IN: {
-      name: "India"
+      name: "India",
+      description: " "
     },
     IE: {
-      name: "Ireland"
+      name: "Ireland",
+      description: " "
     },
     IR: {
-      name: "Iran"
+      name: "Iran",
+      description: " "
     },
     IQ: {
-      name: "Iraq"
+      name: "Iraq",
+      description: " "
     },
     IS: {
-      name: "Iceland"
+      name: "Iceland",
+      description: " "
     },
     IL: {
-      name: "Israel"
+      name: "Israel",
+      description: " "
     },
     IT: {
-      name: "Italy"
+      name: "Italy",
+      description: " "
     },
     JM: {
-      name: "Jamaica"
+      name: "Jamaica",
+      description: " "
     },
     JO: {
-      name: "Jordan"
+      name: "Jordan",
+      description: " "
     },
     JP: {
-      name: "Japan"
+      name: "Japan",
+      description: " "
     },
     KZ: {
-      name: "Kazakhstan"
+      name: "Kazakhstan",
+      description: " "
     },
     KE: {
-      name: "Kenya"
+      name: "Kenya",
+      description: " "
     },
     KG: {
-      name: "Kyrgyzstan"
+      name: "Kyrgyzstan",
+      description: " "
     },
     KH: {
-      name: "Cambodia"
+      name: "Cambodia",
+      description: " "
     },
     KR: {
-      name: "Republic of Korea"
+      name: "Republic of Korea",
+      description: " "
     },
     XK: {
-      name: "Kosovo"
+      name: "Kosovo",
+      description: " "
     },
     KW: {
-      name: "Kuwait"
+      name: "Kuwait",
+      description: " "
     },
     LA: {
-      name: "Lao PDR"
+      name: "Lao PDR",
+      description: " "
     },
     LB: {
-      name: "Lebanon"
+      name: "Lebanon",
+      description: " "
     },
     LR: {
-      name: "Liberia"
+      name: "Liberia",
+      description: " "
     },
     LY: {
-      name: "Libya"
+      name: "Libya",
+      description: " "
     },
     LK: {
-      name: "Sri Lanka"
+      name: "Sri Lanka",
+      description: " "
     },
     LS: {
-      name: "Lesotho"
+      name: "Lesotho",
+      description: " "
     },
     LT: {
-      name: "Lithuania"
+      name: "Lithuania",
+      description: " "
     },
     LU: {
-      name: "Luxembourg"
+      name: "Luxembourg",
+      description: " "
     },
     LV: {
-      name: "Latvia"
+      name: "Latvia",
+      description: " "
     },
     MA: {
-      name: "Morocco"
+      name: "Morocco",
+      description: " "
     },
     MD: {
-      name: "Moldova"
+      name: "Moldova",
+      description: " "
     },
     MG: {
-      name: "Madagascar"
+      name: "Madagascar",
+      description: " "
     },
     MX: {
-      name: "Mexico"
+      name: "Mexico",
+      description: " "
     },
     MK: {
-      name: "Macedonia"
+      name: "Macedonia",
+      description: " "
     },
     ML: {
-      name: "Mali"
+      name: "Mali",
+      description: " "
     },
     MM: {
-      name: "Myanmar"
+      name: "Myanmar",
+      description: " "
     },
     ME: {
-      name: "Montenegro"
+      name: "Montenegro",
+      description: " "
     },
     MN: {
-      name: "Mongolia"
+      name: "Mongolia",
+      description: " "
     },
     MZ: {
-      name: "Mozambique"
+      name: "Mozambique",
+      description: " "
     },
     MR: {
-      name: "Mauritania"
+      name: "Mauritania",
+      description: " "
     },
     MW: {
-      name: "Malawi"
+      name: "Malawi",
+      description: " "
     },
     MY: {
-      name: "Malaysia"
+      name: "Malaysia",
+      description: " "
     },
     NA: {
-      name: "Namibia"
+      name: "Namibia",
+      description: " "
     },
     NE: {
-      name: "Niger"
+      name: "Niger",
+      description: " "
     },
     NG: {
-      name: "Nigeria"
+      name: "Nigeria",
+      description: " "
     },
     NI: {
-      name: "Nicaragua"
+      name: "Nicaragua",
+      description: " "
     },
     NL: {
-      name: "Netherlands"
+      name: "Netherlands",
+      description: " "
     },
     NO: {
-      name: "Norway"
+      name: "Norway",
+      description: " "
     },
     NP: {
-      name: "Nepal"
+      name: "Nepal",
+      description: " "
     },
     NZ: {
-      name: "New Zealand"
+      name: "New Zealand",
+      description: " "
     },
     OM: {
-      name: "Oman"
+      name: "Oman",
+      description: " "
     },
     PK: {
-      name: "Pakistan"
+      name: "Pakistan",
+      description: " "
     },
     PA: {
-      name: "Panama"
+      name: "Panama",
+      description: " "
     },
     PE: {
-      name: "Peru"
+      name: "Peru",
+      description: " "
     },
     PH: {
-      name: "Philippines"
+      name: "Philippines",
+      description: " "
     },
     PG: {
-      name: "Papua New Guinea"
+      name: "Papua New Guinea",
+      description: " "
     },
     PL: {
-      name: "Poland"
+      name: "Poland",
+      description: " "
     },
     KP: {
-      name: "Dem. Rep. Korea"
+      name: "Dem. Rep. Korea",
+      description: " "
     },
     PT: {
-      name: "Portugal"
+      name: "Portugal",
+      description: " "
     },
     PY: {
-      name: "Paraguay"
+      name: "Paraguay",
+      description: " "
     },
     PS: {
-      name: "Palestine"
+      name: "Palestine",
+      description: " "
     },
     QA: {
-      name: "Qatar"
+      name: "Qatar",
+      description: " "
     },
     RO: {
-      name: "Romania"
+      name: "Romania",
+      description: " "
     },
     RU: {
-      name: "Russia"
+      name: "Russia",
+      description: " "
     },
     RW: {
-      name: "Rwanda"
+      name: "Rwanda",
+      description: " "
     },
     EH: {
-      name: "Western Sahara"
+      name: "Western Sahara",
+      description: " "
     },
     SA: {
-      name: "Saudi Arabia"
+      name: "Saudi Arabia",
+      description: " "
     },
     SD: {
-      name: "Sudan"
+      name: "Sudan",
+      description: " "
     },
     SS: {
-      name: "South Sudan"
+      name: "South Sudan",
+      description: " "
     },
     SN: {
-      name: "Senegal"
+      name: "Senegal",
+      description: " "
     },
     SL: {
-      name: "Sierra Leone"
+      name: "Sierra Leone",
+      description: " "
     },
     SV: {
-      name: "El Salvador"
+      name: "El Salvador",
+      description: " "
     },
     RS: {
-      name: "Serbia"
+      name: "Serbia",
+      description: " "
     },
     SR: {
-      name: "Suriname"
+      name: "Suriname",
+      description: " "
     },
     SK: {
-      name: "Slovakia"
+      name: "Slovakia",
+      description: " "
     },
     SI: {
-      name: "Slovenia"
+      name: "Slovenia",
+      description: " "
     },
     SE: {
-      name: "Sweden"
+      name: "Sweden",
+      description: " "
     },
     SZ: {
-      name: "Swaziland"
+      name: "Swaziland",
+      description: " "
     },
     SY: {
-      name: "Syria"
+      name: "Syria",
+      description: " "
     },
     TD: {
-      name: "Chad"
+      name: "Chad",
+      description: " "
     },
     TG: {
-      name: "Togo"
+      name: "Togo",
+      description: " "
     },
     TH: {
-      name: "Thailand"
+      name: "Thailand",
+      description: " "
     },
     TJ: {
-      name: "Tajikistan"
+      name: "Tajikistan",
+      description: " "
     },
     TM: {
-      name: "Turkmenistan"
+      name: "Turkmenistan",
+      description: " "
     },
     TL: {
-      name: "Timor-Leste"
+      name: "Timor-Leste",
+      description: " "
     },
     TN: {
-      name: "Tunisia"
+      name: "Tunisia",
+      description: " "
     },
     TR: {
-      name: "Turkey"
+      name: "Turkey",
+      description: " "
     },
     TW: {
-      name: "Taiwan"
+      name: "Taiwan",
+      description: " "
     },
     TZ: {
-      name: "Tanzania"
+      name: "Tanzania",
+      description: " "
     },
     UG: {
-      name: "Uganda"
+      name: "Uganda",
+      description: " "
     },
     UA: {
-      name: "Ukraine"
+      name: "Ukraine",
+      description: " "
     },
     UY: {
-      name: "Uruguay"
+      name: "Uruguay",
+      description: " "
     },
     US: {
-      name: "United States"
+      name: "United States",
+      description: " "
     },
     UZ: {
-      name: "Uzbekistan"
+      name: "Uzbekistan",
+      description: " "
     },
     VE: {
-      name: "Venezuela"
+      name: "Venezuela",
+      description: " "
     },
     VN: {
-      name: "Vietnam"
+      name: "Vietnam",
+      description: " "
     },
     VU: {
-      name: "Vanuatu"
+      name: "Vanuatu",
+      description: " "
     },
     YE: {
-      name: "Yemen"
+      name: "Yemen",
+      description: " "
     },
     ZA: {
-      name: "South Africa"
+      name: "South Africa",
+      description: " "
     },
     ZM: {
-      name: "Zambia"
+      name: "Zambia",
+      description: " "
     },
     ZW: {
-      name: "Zimbabwe"
+      name: "Zimbabwe",
+      description: " "
     },
     SO: {
-      name: "Somalia"
+      name: "Somalia",
+      description: " "
     },
     GF: {
-      name: "France"
+      name: "France",
+      description: " "
     },
     FR: {
-      name: "France"
+      name: "France",
+      description: " "
     },
     ES: {
-      name: "Spain"
+      name: "Spain",
+      description: " "
     },
     AW: {
-      name: "Aruba"
+      name: "Aruba",
+      description: " "
     },
     AI: {
-      name: "Anguilla"
+      name: "Anguilla",
+      description: " "
     },
     AD: {
-      name: "Andorra"
+      name: "Andorra",
+      description: " "
     },
     AG: {
-      name: "Antigua and Barbuda"
+      name: "Antigua and Barbuda",
+      description: " "
     },
     BS: {
-      name: "Bahamas"
+      name: "Bahamas",
+      description: " "
     },
     BM: {
-      name: "Bermuda"
+      name: "Bermuda",
+      description: " "
     },
     BB: {
-      name: "Barbados"
+      name: "Barbados",
+      description: " "
     },
     KM: {
-      name: "Comoros"
+      name: "Comoros",
+      description: " "
     },
     CV: {
-      name: "Cape Verde"
+      name: "Cape Verde",
+      description: " "
     },
     KY: {
-      name: "Cayman Islands"
+      name: "Cayman Islands",
+      description: " "
     },
     DM: {
-      name: "Dominica"
+      name: "Dominica",
+      description: " "
     },
     FK: {
-      name: "Falkland Islands"
+      name: "Falkland Islands",
+      description: " "
     },
     FO: {
-      name: "Faeroe Islands"
+      name: "Faeroe Islands",
+      description: " "
     },
     GD: {
-      name: "Grenada"
+      name: "Grenada",
+      description: " "
     },
     HK: {
-      name: "Hong Kong"
+      name: "Hong Kong",
+      description: " "
     },
     KN: {
-      name: "Saint Kitts and Nevis"
+      name: "Saint Kitts and Nevis",
+      description: " "
     },
     LC: {
-      name: "Saint Lucia"
+      name: "Saint Lucia",
+      description: " "
     },
     LI: {
-      name: "Liechtenstein"
+      name: "Liechtenstein",
+      description: " "
     },
     MF: {
-      name: "Saint Martin (French)"
+      name: "Saint Martin (French)",
+      description: " "
     },
     MV: {
-      name: "Maldives"
+      name: "Maldives",
+      description: " "
     },
     MT: {
-      name: "Malta"
+      name: "Malta",
+      description: " "
     },
     MS: {
-      name: "Montserrat"
+      name: "Montserrat",
+      description: " "
     },
     MU: {
-      name: "Mauritius"
+      name: "Mauritius",
+      description: " "
     },
     NC: {
-      name: "New Caledonia"
+      name: "New Caledonia",
+      description: " "
     },
     NR: {
-      name: "Nauru"
+      name: "Nauru",
+      description: " "
     },
     PN: {
-      name: "Pitcairn Islands"
+      name: "Pitcairn Islands",
+      description: " "
     },
     PR: {
-      name: "Puerto Rico"
+      name: "Puerto Rico",
+      description: " "
     },
     PF: {
-      name: "French Polynesia"
+      name: "French Polynesia",
+      description: " "
     },
     SG: {
-      name: "Singapore"
+      name: "Singapore",
+      description: " "
     },
     SB: {
-      name: "Solomon Islands"
+      name: "Solomon Islands",
+      description: " "
     },
     ST: {
-      name: "São Tomé and Principe"
+      name: "São Tomé and Principe",
+      description: " "
     },
     SX: {
-      name: "Saint Martin (Dutch)"
+      name: "Saint Martin (Dutch)",
+      description: " "
     },
     SC: {
-      name: "Seychelles"
+      name: "Seychelles",
+      description: " "
     },
     TC: {
-      name: "Turks and Caicos Islands"
+      name: "Turks and Caicos Islands",
+      description: " "
     },
     TO: {
-      name: "Tonga"
+      name: "Tonga",
+      description: " "
     },
     TT: {
-      name: "Trinidad and Tobago"
+      name: "Trinidad and Tobago",
+      description: " "
     },
     VC: {
-      name: "Saint Vincent and the Grenadines"
+      name: "Saint Vincent and the Grenadines",
+      description: " "
     },
     VG: {
-      name: "British Virgin Islands"
+      name: "British Virgin Islands",
+      description: " "
     },
     VI: {
-      name: "United States Virgin Islands"
+      name: "United States Virgin Islands",
+      description: " "
     },
     CY: {
-      name: "Cyprus"
+      name: "Cyprus",
+      description: " "
     },
     RE: {
-      name: "Reunion (France)"
+      name: "Reunion (France)",
+      description: " "
     },
     YT: {
-      name: "Mayotte (France)"
+      name: "Mayotte (France)",
+      description: " "
     },
     MQ: {
-      name: "Martinique (France)"
+      name: "Martinique (France)",
+      description: " "
     },
     GP: {
-      name: "Guadeloupe (France)"
+      name: "Guadeloupe (France)",
+      description: " "
     },
     CW: {
-      name: "Curaco (Netherlands)"
+      name: "Curaco (Netherlands)",
+      description: " "
     },
     IC: {
-      name: "Canary Islands (Spain)"
+      name: "Canary Islands (Spain)",
+      description: " "
     }
   },
   locations: {
     "0": {
-      lat: 31.255,
-      lng: 121.475,
-      name: "上海",
-      size: "20"
-    },
-    "1": {
-      lat: 23.144,
-      lng: 113.246,
-      name: "广州",
-      color: "#660066",
-      description: '飞妈: 小飞真棒！<br/>飞爸: 菲菲加油！<br/><audio controls><source src="horse.ogg" type="audio/ogg"><source src="map_audios/llf.aac" type="audio/aac">hello,菲菲加油.</audio>',
-      size: "20"
-    },
-    "2": {
-      lat: 47.604,
-      lng: -122.329,
-      name: "西雅图",
-      size: "15"
-    },
-    "3": {
       lat: 40.715,
       lng: -74.007,
-      name: "纽约",
-      size: "15"
+      name: "纽约"
     },
-    paris: {
-      name: "巴黎",
-      lat: "48.866666670",
-      lng: "2.333333333",
-      size: "15"
+    "1": {
+      lat: 27.698,
+      lng: 106.91,
+      name: "遵义"
+    },
+    "2": {
+      lat: "32.027016581046425",
+      lng: "121.00647141019094",
+      name: "南通"
+    },
+    "3": {
+      lat: 35.685,
+      lng: 139.809,
+      name: "东京"
+    },
+    "4": {
+      lat: 18.282,
+      lng: 109.499,
+      name: "三亚"
+    },
+    "5": {
+      lat: 23.044,
+      lng: 113.737,
+      name: "东莞"
+    },
+    "6": {
+      lat: 47.604,
+      lng: -122.329,
+      name: "西雅图"
+    },
+    "7": {
+      lat: 39.907,
+      lng: 116.388,
+      name: "北京"
+    },
+    "8": {
+      lat: 22.557,
+      lng: 114.119,
+      name: "深圳"
+    },
+    "9": {
+      lat: 28.196,
+      lng: 112.973,
+      name: "长沙"
+    },
+    "10": {
+      lat: 30.672,
+      lng: 104.076,
+      name: "成都"
+    },
+    "11": {
+      lat: 25.012,
+      lng: 121.466,
+      name: "新北"
+    },
+    "12": {
+      lat: 23.144,
+      lng: 113.246,
+      name: "广州"
+    },
+    "13": {
+      lat: "31.153809718891075",
+      lng: "120.60899783405573",
+      name: "苏州"
+    },
+    "14": {
+      lat: 25.065,
+      lng: 102.699,
+      name: "昆明"
+    },
+    "15": {
+      lat: 45.756,
+      lng: 126.64,
+      name: "哈尔滨"
+    },
+    "16": {
+      lat: 31.87,
+      lng: 117.275,
+      name: "合肥"
+    },
+    "17": {
+      lat: 26.079,
+      lng: 119.297,
+      name: "福州"
+    },
+    "18": {
+      lat: 30.272,
+      lng: 120.206,
+      name: "杭州"
+    },
+    "19": {
+      lat: 30.644,
+      lng: 114.325,
+      name: "武汉"
+    },
+    "20": {
+      lat: 31.255,
+      lng: 121.475,
+      name: "上海"
+    },
+    "21": {
+      lat: 41.787,
+      lng: 123.404,
+      name: "沈阳"
+    },
+    "22": {
+      lat: 22.278,
+      lng: 114.16,
+      name: "香港"
+    },
+    "23": {
+      lat: "25.49904709468602",
+      lng: "103.80705760566464",
+      name: "曲靖"
     }
   },
   labels: {},
@@ -972,7 +1274,6 @@ var simplemaps_worldmap_mapdata={
         "PH",
         "KR",
         "ID",
-        "CN",
         "MV",
         "NC",
         "VU",
@@ -986,6 +1287,12 @@ var simplemaps_worldmap_mapdata={
         "RU",
         "KZ"
       ]
+    },
+    "6": {
+      states: [
+        "CN"
+      ],
+      name: "China"
     }
   }
 };
