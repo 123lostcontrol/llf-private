@@ -4749,7 +4749,7 @@ var simplemaps_worldmap_mapinfo = {
 		LC: "Saint Lucia",
 		LA: "Laos",
 		TV: "Tuvalu",
-		TW: "Taiwan",
+		TW: "China",
 		TT: "Trinidad and Tobago",
 		TR: "Turkey",
 		LK: "Sri Lanka",
