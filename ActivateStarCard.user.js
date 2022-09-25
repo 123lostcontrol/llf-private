@@ -4,7 +4,8 @@
 // @version      0.1
 // @description  激活星梦卡
 // @author       You
-// @match        https://www.ckg48.com/event/s310/star/activate.html
+// @match        *://www.ckg48.com/event/s310/star/activate.html
+// @match        *://ckg48.cn/event/s310/star/activate.html
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        none
 // ==/UserScript==
