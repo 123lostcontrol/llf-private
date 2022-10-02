@@ -5,7 +5,7 @@ var simplemaps_worldmap_mapdata={
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
-    popups: "detect",
+    popups: "on_click",
     
     //State defaults
     state_description: "State description",
@@ -959,18 +959,24 @@ var simplemaps_worldmap_mapdata={
       description: "<p><b>murasame</b>:现在为了自己的梦想在异乡努力，东京很大很华丽，但是在努力往山顶攀登的我却没有看风景的心情。菲菲我看你，就像看不同路上的战友，一起走下去，走到一天感谢今天坚持的我们自己，好不好？</p>"
     },
     "4": {
-      lat: 18.282,
-      lng: 109.499,
-      name: "三亚",
-      description: "<p><b>一小束负</b>:飞吧，在未知遥远的旅途上</p>"
+      // lat: 22.278,
+      // lng: 114.16,
+      lat: 21.728,
+      lng: 114.56,
+      name: "香港",
+      description: '<p><b>🐬🐬💙</b>:<br/><audio controls><source src="map_audios/hk.m4a" type="audio/x-m4a"></audio></p>'
     },
     "5": {
-      // lat: 23.144,
-      // lng: 113.737,
-      lat: 23.344,
-      lng: 113.937,
-      name: "东莞",
-      description: '<p><b>2022年四季都快乐</b>:从工作角度对自己评价，的确认知和有些选择做错了。回头复盘一年，反而印象深的是跟很多朋友聊的为什么入坑/喜欢你什么这类话题，答案各种各样，最打动我的是"以你为榜样"。喜欢你的会越来越多的。</p>'
+      // lat: 22.557,
+      // lng: 114.119,
+      // lat: 22.657,
+      // lng: 114.119,
+      lat: 22.278,
+      lng: 114.16,
+      name: "深圳",
+      description: "<p><b>蚊子君</b>:刘力菲是世界一的大甜妹</p>"
+      + "<p><b>躺平的硬币</b>:希望你未来轻松一点，别让自己太累了，身体健康，多多赚钱，早日买房。</p>"
+      + "<p><b>中泰海蛎子</b>:继续走完接下来的路程</p>"
     },
     "6": {
       lat: 47.604,
@@ -987,16 +993,12 @@ var simplemaps_worldmap_mapdata={
       + "<p><b>通风橱旁</b>:谢谢你让我体会到被偶像带飞的感觉，之后也一起加油吧！</p>"
     },
     "8": {
-      // lat: 22.557,
-      // lng: 114.119,
-      // lat: 22.657,
-      // lng: 114.119,
-      lat: 22.278,
-      lng: 114.16,
-      name: "深圳",
-      description: "<p><b>蚊子君</b>:刘力菲是世界一的大甜妹</p>"
-      + "<p><b>躺平的硬币</b>:希望你未来轻松一点，别让自己太累了，身体健康，多多赚钱，早日买房。</p>"
-      + "<p><b>中泰海蛎子</b>:继续走完接下来的路程</p>"
+      // lat: 23.144,
+      // lng: 113.737,
+      lat: 23.344,
+      lng: 113.937,
+      name: "东莞",
+      description: '<p><b>2022年四季都快乐</b>:从工作角度对自己评价，的确认知和有些选择做错了。回头复盘一年，反而印象深的是跟很多朋友聊的为什么入坑/喜欢你什么这类话题，答案各种各样，最打动我的是"以你为榜样"。喜欢你的会越来越多的。</p>'
     },
     "9": {
       lat: 28.196,
@@ -1085,14 +1087,13 @@ var simplemaps_worldmap_mapdata={
       lng: 123.404,
       name: "沈阳",
       description: "<p><b>陈泽一</b>:刘力菲相信自己，你是最棒的</p>"
-    }
-    // "22": {
-    //   // lat: 22.278,
-    //   // lng: 114.16,
-    //   lat: 21.928,
-    //   lng: 114.36,
-    //   name: "香港"
-    // },
+    },
+    "22": {
+      lat: 18.282,
+      lng: 109.499,
+      name: "三亚",
+      description: "<p><b>一小束负</b>:飞吧，在未知遥远的旅途上</p>"
+    },
   },
   labels: {},
   legend: {

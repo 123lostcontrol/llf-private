@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>World Map Example</title>
-    <script src="mapdata.js"></script>
-    <script src="worldmap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>刘力菲九选感谢册</title>
+    <script src="js/mapdata.js"></script>
+    <script src="js/worldmap.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/jquery.csv.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/read-stats.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
   </head>
   <body>
-  <!-- <h1>HTML5/Javascript World Map</h1> -->
-    <!-- <div>刘力菲九选jz感谢名单</div> -->
-    <div id="map"></div>
+    <div class="container">
+      <div class="row">
+        <div id="map"></div>
+        <div class="row text-center note">
+          <p>(Top48留言地图: 用电脑、平板或手机横屏查看效果更佳，单机具体国家可放大进入国家界面，点左上角箭头可返回世界范围。部分聚聚选择不公开留言。)</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <h2>刘力菲九选感谢册</h2>
+      </div>
+      <div class="row text-center">
+        <table class="table table-striped table-hover" id="stats">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">ID</th>
+              <th scope="col">合计</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>          
+        </table>
+      </div>
+    </div>
 	</body>
 </html>
       

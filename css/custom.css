@@ -1,0 +1,21 @@
+.tt_custom_sm p {
+	margin-bottom: 0.5em;
+}
+
+.tt_custom_sm p b {
+	color: #0d6efd;
+}
+
+.tt_name_sm {
+	font-size: medium;
+	margin-bottom: 10px;
+	color: #127765;
+}
+
+table .id {
+	color: #0d6efd !important;
+}
+
+.note {
+	font-size: small;
+}
