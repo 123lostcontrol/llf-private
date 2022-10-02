@@ -1102,10 +1102,10 @@ var simplemaps_worldmap_mapdata={
   regions: {
     "0": {
       name: "North America",
+      zoomable: "no",
       states: [
         "MX",
         "CA",
-        "US",
         "GL",
         "BM"
       ]
@@ -1350,6 +1350,12 @@ var simplemaps_worldmap_mapdata={
         "JP",
         "KR"
       ]
-    }
+    },
+    "8": {
+      states: [
+        "US"
+      ],
+      name: "United States"
+    },
   }
 };
