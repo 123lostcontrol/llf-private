@@ -6,6 +6,10 @@
 	color: #0d6efd;
 }
 
+.tt_custom_sm p i {
+	color: red;
+}
+
 .tt_name_sm {
 	font-size: medium;
 	margin-bottom: 10px;
