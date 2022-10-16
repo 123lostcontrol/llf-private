@@ -6,7 +6,7 @@
 	color: #0d6efd;
 }
 
-.tt_custom_sm p i {
+.tt_custom_sm p i, #note p i {
 	color: red;
 }
 
